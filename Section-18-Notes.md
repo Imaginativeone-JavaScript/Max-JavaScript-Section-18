@@ -1,0 +1,23 @@
+- [ ] Section 18: Working with Http Requests 0 / 22 | 1hr 22min
+	- [ ] 364 01 Module Introduction 1min
+	- [ ] 365 02 What & Why 5min
+	- [ ] 366 03 How The Web Works 1min
+	- [ ] 367 04 More Background about Http 5min
+	- [ ] 368 05 Getting Started with Http 4min
+	- [ ] 369 06 Sending a GET Request 4min
+	- [ ] 370 07 JSON Data & Parsing Data 9min
+	- [ ] 371 08 JSON Data Deep Dive 1min
+	- [ ] 372 09 Promisifying Http Requests (with XMLHttpRequest) 4min
+	- [ ] 373 10 Sending Data with a POST Request 5min
+	- [ ] 374 11 Triggering Requests via the UI 3min
+	- [ ] 375 12 The "Fetch" Button Always Appends 1min
+	- [ ] 376 13 Sending a DELETE Request 5min
+	- [ ] 377 14 Handling Errors 5min
+	- [ ] 378 15 Using the fetch() API 7min
+	- [ ] 379 16 POSTing Data with the fetch() API 3min
+	- [ ] 380 17 Adding Request Headers 3min
+	- [ ] 381 18 fetch() & Error Handling 7min
+	- [ ] 382 19 XMLHttpRequest vs fetch() 2min
+	- [ ] 383 20 Working with FormData 7min
+	- [ ] 384 21 Wrap Up 1min
+	- [ ] 385 22 Useful Resources & Links 1min
