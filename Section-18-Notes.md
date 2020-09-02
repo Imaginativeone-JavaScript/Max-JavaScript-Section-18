@@ -1,5 +1,11 @@
 - [ ] Section 18: Working with Http Requests 0 / 22 | 1hr 22min
 	- [ ] 364 01 Module Introduction 1min
+	  - Network Requests
+		- Sending HTTP Requests via JavaScript
+		- Two main ways we have for sending such requests
+		  - XMLHttpRequest
+			- fetch() API
+		- JSON Data and FormData
 	- [ ] 365 02 What & Why 5min
 	- [ ] 366 03 How The Web Works 1min
 	- [ ] 367 04 More Background about Http 5min
