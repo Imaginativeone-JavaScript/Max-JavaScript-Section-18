@@ -1,5 +1,5 @@
 - [ ] Section 18: Working with Http Requests 0 / 22 | 1hr 22min
-	- [x] 364 01 Module Introduction 1min
+	- [x] 364 01 Module Introduction
 	  - Network Requests
 		- Sending HTTP Requests via JavaScript
 		- Two main ways we have for sending such requests
@@ -7,7 +7,7 @@
 			- fetch() API
 		- JSON Data and FormData
 		- GETting Data, POSTing Data
-	- [ ] 365 02 What & Why 5min
+	- [ ] 365 02 What & Why
 	  - [<My Script>][Web Page (Rendered HTML)]
 		  - All of this *could* be done on the server...(PHP)
 			- The default can be prevented, in order to let JS process info
@@ -45,8 +45,42 @@
 	**Formats**
 	JSON
 	
-	- [ ] 370 07 JSON Data & Parsing Data 9min
+	- [ ] 370 07 JSON Data & Parsing Data
 	- [ ] 371 08 JSON Data Deep Dive 1min
+
+	```javascript
+	const listElement  = document.querySelector('.posts');
+	const postTemplate = document.getElementById('single-post');
+	// Posts are only available in the onload anonymous function
+
+	const xhr = new XMLHttpRequest();
+
+	xhr.open('GET', 'https://jsonplaceholder.typicode.com/posts');
+
+	// xhr.responseType = 'json'; // Parses the json in advance
+
+	xhr.onload = function() {
+
+		const listOfPosts = JSON.parse(xhr.response);
+		// const listOfPosts = xhr.response;
+
+		console.log(listOfPosts); // JavaScript Array
+		console.log(xhr.response);
+
+		for (const post of listOfPosts) {
+			
+			const postEl = document.importNode(postTemplate.content, true); // true: deep clone
+			postEl.querySelector('h2').textContent = post.title.toUpperCase();
+			postEl.querySelector('p').textContent  = post.body;
+			listElement.append(postEl);
+		}
+
+	}
+
+	xhr.send();
+
+	// Data shows up in the Developer Tools NETWORK tab
+	```
 	- [ ] 372 09 Promisifying Http Requests (with XMLHttpRequest) 4min
 	- [ ] 373 10 Sending Data with a POST Request 5min
 	- [ ] 374 11 Triggering Requests via the UI 3min
