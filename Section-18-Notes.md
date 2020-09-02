@@ -1,16 +1,50 @@
 - [ ] Section 18: Working with Http Requests 0 / 22 | 1hr 22min
-	- [ ] 364 01 Module Introduction 1min
+	- [x] 364 01 Module Introduction 1min
 	  - Network Requests
 		- Sending HTTP Requests via JavaScript
 		- Two main ways we have for sending such requests
 		  - XMLHttpRequest
 			- fetch() API
 		- JSON Data and FormData
+		- GETting Data, POSTing Data
 	- [ ] 365 02 What & Why 5min
-	- [ ] 366 03 How The Web Works 1min
-	- [ ] 367 04 More Background about Http 5min
+	  - [<My Script>][Web Page (Rendered HTML)]
+		  - All of this *could* be done on the server...(PHP)
+			- The default can be prevented, in order to let JS process info
+		- [<My Script>]<-->[Web Page (Rendered HTML)]<-->[Backend Server (API)]
+		- [<My Script>]<-->[Web Page (Rendered HTML)]<-//->[Backend Server (API)] (avoid page reloads)
+		- [<Script> (Client Side)]<-- HTTP Request/Response, URL (domain + path) -->[Server]
+		  - Http Method(s)
+			  - GET, POST, PATCH, PUT, DELETE Sent to Server from Client
+			- Http Headers
+			- Http Body (Data)
+			  - JSON Format
+				- FormData Format
+				- Binary, etc...
+		  - Frontend
+			  - Detached from backend
+				- Responsible for fetching and sending data
+			- Server
+			  - May on a different server or domain
+				- Responsible for storing & retrieving data (usually with a database)
+	- [x] 366 03 How The Web Works 1min
+	- [x] 367 04 More Background about Http 5min
 	- [ ] 368 05 Getting Started with Http 4min
+	  - Need a server for this exercise
 	- [ ] 369 06 Sending a GET Request 4min
+
+	```javascript
+	const xhr = new XMLHttpRequest();
+
+	xhr.open('GET', 'https://jsonplaceholder.typicode.com/posts');
+	xhr.send();
+
+	// Data shows up in the Developer Tools NETWORK tab
+	```
+
+	**Formats**
+	JSON
+	
 	- [ ] 370 07 JSON Data & Parsing Data 9min
 	- [ ] 371 08 JSON Data Deep Dive 1min
 	- [ ] 372 09 Promisifying Http Requests (with XMLHttpRequest) 4min
