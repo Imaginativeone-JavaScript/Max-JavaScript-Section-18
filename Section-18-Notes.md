@@ -1,5 +1,5 @@
-- [ ] Section 18: Working with Http Requests 0 / 22 | 1hr 22min
-	- [x] 364 01 Module Introduction 1min
+- [ ] Section 18: Working with Http Requests
+	- [x] 364 01 Module Introduction
 	  - Network Requests
 		- Sending HTTP Requests via JavaScript
 		- Two main ways we have for sending such requests
@@ -7,7 +7,7 @@
 			- fetch() API
 		- JSON Data and FormData
 		- GETting Data, POSTing Data
-	- [ ] 365 02 What & Why 5min
+	- [ ] 365 02 What & Why
 	  - [<My Script>][Web Page (Rendered HTML)]
 		  - All of this *could* be done on the server...(PHP)
 			- The default can be prevented, in order to let JS process info
@@ -27,11 +27,11 @@
 			- Server
 			  - May on a different server or domain
 				- Responsible for storing & retrieving data (usually with a database)
-	- [x] 366 03 How The Web Works 1min
-	- [x] 367 04 More Background about Http 5min
-	- [ ] 368 05 Getting Started with Http 4min
+	- [x] 366 03 How The Web Works
+	- [x] 367 04 More Background about Http
+	- [ ] 368 05 Getting Started with Http
 	  - Need a server for this exercise
-	- [ ] 369 06 Sending a GET Request 4min
+	- [ ] 369 06 Sending a GET Request
 
 	```javascript
 	const xhr = new XMLHttpRequest();
@@ -45,19 +45,19 @@
 	**Formats**
 	JSON
 	
-	- [ ] 370 07 JSON Data & Parsing Data 9min
-	- [ ] 371 08 JSON Data Deep Dive 1min
-	- [ ] 372 09 Promisifying Http Requests (with XMLHttpRequest) 4min
-	- [ ] 373 10 Sending Data with a POST Request 5min
-	- [ ] 374 11 Triggering Requests via the UI 3min
-	- [ ] 375 12 The "Fetch" Button Always Appends 1min
-	- [ ] 376 13 Sending a DELETE Request 5min
-	- [ ] 377 14 Handling Errors 5min
-	- [ ] 378 15 Using the fetch() API 7min
-	- [ ] 379 16 POSTing Data with the fetch() API 3min
-	- [ ] 380 17 Adding Request Headers 3min
-	- [ ] 381 18 fetch() & Error Handling 7min
-	- [ ] 382 19 XMLHttpRequest vs fetch() 2min
-	- [ ] 383 20 Working with FormData 7min
-	- [ ] 384 21 Wrap Up 1min
-	- [ ] 385 22 Useful Resources & Links 1min
+	- [ ] 370 07 JSON Data & Parsing Data
+	- [ ] 371 08 JSON Data Deep Dive
+	- [ ] 372 09 Promisifying Http Requests (with XMLHttpRequest)
+	- [ ] 373 10 Sending Data with a POST Request
+	- [ ] 374 11 Triggering Requests via the UI
+	- [ ] 375 12 The "Fetch" Button Always Appends
+	- [ ] 376 13 Sending a DELETE Request
+	- [ ] 377 14 Handling Errors
+	- [ ] 378 15 Using the fetch() API
+	- [ ] 379 16 POSTing Data with the fetch() API
+	- [ ] 380 17 Adding Request Headers
+	- [ ] 381 18 fetch() & Error Handling
+	- [ ] 382 19 XMLHttpRequest vs fetch()
+	- [ ] 383 20 Working with FormData
+	- [ ] 384 21 Wrap Up
+	- [ ] 385 22 Useful Resources & Links
